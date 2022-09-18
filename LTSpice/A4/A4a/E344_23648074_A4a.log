@@ -1,0 +1,187 @@
+Circuit: * C:\Users\chris\OneDrive\Desktop\Classes\3rd Year 2nd Semester\E Design 344\GitRepo\E344\LTSpice\A4\A4a\E344_23648074_A4a.asc
+
+V3: Removing PWL point (0.06,0.5)
+WARNING: Less than two connections to node 5V.  This node is used by RSENSE5V.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 0.00100083
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+Gmin = 0.00100083
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 1.70455%
+Source Step = 3.59848%
+Source Step = 5.49242%
+Source Step = 7.38636%
+Source Step = 9.2803%
+vernier = 0.09375
+Source Step = 11.9318%
+Source Step = 14.7727%
+Source Step = 17.6136%
+Source Step = 20.4545%
+Source Step = 23.2955%
+vernier = 0.140625
+Source Step = 27.1307%
+Source Step = 31.392%
+Source Step = 35.6534%
+Source Step = 39.9148%
+Source Step = 44.1761%
+vernier = 0.210938
+Source Step = 49.7159%
+Source Step = 56.108%
+Source Step = 62.5%
+Source Step = 68.892%
+Source Step = 75.2841%
+vernier = 0.316406
+Source Step = 83.2741%
+Source Step = 84.3228%
+Source Step = 84.4727%
+Source Step = 84.585%
+Source Step = 84.6225%
+Source Step = 84.6599%
+Source Step = 84.6974%
+Source Step = 84.7348%
+Source Step = 84.7723%
+vernier = 0.00185394
+Source Step = 84.8172%
+Source Step = 84.8734%
+Source Step = 84.9296%
+Source Step = 84.9858%
+Source Step = 85.0419%
+vernier = 0.00278091
+Source Step = 85.1066%
+Source Step = 85.1908%
+Source Step = 85.2751%
+Source Step = 85.3594%
+Source Step = 85.4436%
+vernier = 0.00417137
+Source Step = 85.5363%
+Source Step = 85.6627%
+Source Step = 85.7891%
+Source Step = 85.9155%
+Source Step = 86.042%
+vernier = 0.00625706
+Source Step = 86.1747%
+Source Step = 86.3643%
+Source Step = 86.5539%
+Source Step = 86.7435%
+Source Step = 86.9331%
+Source Step = 87.1227%
+vernier = 0.00938559
+Source Step = 87.4071%
+Source Step = 87.6915%
+Source Step = 87.976%
+Source Step = 88.2604%
+Source Step = 88.5448%
+vernier = 0.0140784
+Source Step = 88.9572%
+Source Step = 89.3838%
+Source Step = 89.8104%
+Source Step = 90.237%
+Source Step = 90.4583%
+Source Step = 90.485%
+Source Step = 90.5117%
+Source Step = 90.5383%
+Source Step = 90.565%
+Source Step = 90.5917%
+Source Step = 90.6183%
+Source Step = 90.645%
+Source Step = 90.6716%
+Source Step = 90.6983%
+Source Step = 90.725%
+Source Step = 90.7516%
+vernier = 0.00131985
+Source Step = 90.7823%
+Source Step = 90.8223%
+Source Step = 90.8623%
+Source Step = 90.9023%
+Source Step = 90.9423%
+vernier = 0.00197977
+Source Step = 90.9863%
+Source Step = 91.0463%
+Source Step = 91.1063%
+Source Step = 91.1663%
+Source Step = 91.2262%
+vernier = 0.00296966
+Source Step = 91.2892%
+Source Step = 91.3792%
+Source Step = 91.4692%
+Source Step = 91.5592%
+Source Step = 91.6492%
+Source Step = 91.7392%
+vernier = 0.00445449
+Source Step = 91.8742%
+Source Step = 92.0092%
+Source Step = 92.1441%
+Source Step = 92.2791%
+Source Step = 92.4141%
+vernier = 0.00668173
+Source Step = 92.6098%
+Source Step = 92.8123%
+Source Step = 93.0148%
+Source Step = 93.2173%
+Source Step = 93.4197%
+vernier = 0.0100226
+Source Step = 93.7032%
+Source Step = 94.0069%
+Source Step = 94.3106%
+Source Step = 94.6144%
+Source Step = 94.9181%
+vernier = 0.0150339
+Source Step = 95.3281%
+Source Step = 95.7837%
+Source Step = 96.2392%
+Source Step = 96.6948%
+Source Step = 97.1504%
+vernier = 0.0225508
+Source Step = 97.7426%
+Source Step = 98.426%
+Source Step = 99.1093%
+Source Step = 99.6731%
+Source Step = 99.7244%
+Source Step = 99.7671%
+Source Step = 99.8098%
+Source Step = 99.8525%
+Source Step = 99.8952%
+vernier = 0.00211414
+Source Step = 99.9443%
+Source stepping succeeded in finding the operating point.
+
+
+Date: Tue Aug 23 21:21:12 2022
+Total elapsed time: 1.804 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 19395
+traniter = 6853
+tranpoints = 2008
+accept = 1747
+rejected = 261
+matrix size = 140
+fillins = 304
+solver = Normal
+Thread vector: 8.8/4.8[3] 1.4/1.6[1] 2.5/1.9[3] 0.8/0.9[1]  2592/500
+Matrix Compiler1: 27.36 KB object code size  4.0/2.0/[0.9]
+Matrix Compiler2: 16.68 KB object code size  1.5/2.4/[1.0]
+

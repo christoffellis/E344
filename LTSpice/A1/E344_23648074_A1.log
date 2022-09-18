@@ -1,0 +1,22 @@
+Circuit: * C:\Users\chris\OneDrive\Desktop\Classes\3rd Year 2nd Semester\E Design 344\GitRepo\E344\LTSpice\E344_23648074_A1.asc
+
+WARNING: Less than two connections to node V_CURRENT.  This node is used by R1.
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Jul 30 16:31:30 2022
+Total elapsed time: 0.746 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 35858
+traniter = 35827
+tranpoints = 15047
+accept = 10000
+rejected = 5047
+matrix size = 19
+fillins = 11
+solver = Normal
+Matrix Compiler1: 1.68 KB object code size  1.0/0.5/[0.2]
+Matrix Compiler2: 1.59 KB object code size  0.4/0.5/[0.3]
+

@@ -1,0 +1,22 @@
+Circuit: * C:\Users\chris\OneDrive\Desktop\Classes\3rd Year 2nd Semester\E Design 344\GitRepo\E344\LTSpice\Voltage Regulator\Draft1.asc
+
+Warning: Multiple definitions of model "1n4148" Type: Diode
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue Sep 13 23:10:41 2022
+Total elapsed time: 0.132 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2514
+traniter = 2495
+tranpoints = 704
+accept = 472
+rejected = 232
+matrix size = 10
+fillins = 0
+solver = Normal
+Matrix Compiler1: 292 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: 658 bytes object code size  0.2/0.2/[0.1]
+
