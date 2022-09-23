@@ -1,0 +1,54 @@
+Circuit: * C:\Users\chris\OneDrive\Desktop\Classes\3rd Year 2nd Semester\E Design 344\GitRepo\E344\LTSpice\A6\A6b\E344_23648074_A6b.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 8.24854e-008
+vernier = 0.166667
+vernier = 0.222222
+Gmin = 5.44897e-008
+vernier = 0.296296
+Gmin = 2.85881e-008
+vernier = 0.395061
+vernier = 0.526748
+Gmin = 9.90489e-009
+vernier = 0.702331
+vernier = 0.936441
+Gmin = 1.92384e-009
+vernier = 1
+Gmin = 2.17417e-010
+Gmin = 2.3345e-011
+Gmin = 2.50665e-012
+Gmin = 2.69149e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Fri Sep 23 10:14:46 2022
+Total elapsed time: 0.325 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 6411
+traniter = 5489
+tranpoints = 2443
+accept = 2334
+rejected = 109
+matrix size = 56
+fillins = 46
+solver = Normal
+Matrix Compiler1: 7.51 KB object code size  1.0/0.5/[0.3]
+Matrix Compiler2: 5.62 KB object code size  0.6/0.7/[0.3]
+

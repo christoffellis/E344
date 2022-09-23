@@ -1,0 +1,43 @@
+* C:\Users\chris\OneDrive\Desktop\Classes\3rd Year 2nd Semester\E Design 344\GitRepo\E344\LTSpice\A6\A6b\E344_23648074_A6b.asc
+V1 N001 0 PWL file=PowerSupplyPWL.csv
+RSenseBattery BatteryTerminal N007 1m
+RSenseSupply VSupply N001 1m
+C1 N006 0 10m IC=6
+V2 ChargeOn 0 PWL file=ChargeOnPWL.csv
+XU1 N010 N003 N002 LT317A
+XM1 N005 N009 N004 irf9z24n irf9z24n
+M2 N009 ChargeOn 0 0 2N7002
+D1 VSupply N002 1N5819
+D2 N005 BatteryTerminal 1N5819
+S1 P001 N007 N008 0 MYSW
+V3 N008 0 PWL file=SwitchPWL.csv
+S2 N006 N007 0 N008 MYSW2
+V4 P001 0 6
+C2 N002 0 0.1µ
+R4 N010 0 500
+R1 N004 N003 0.39
+R2 N004 N010 100
+R3 N004 N009 1000
+R5 ChargeOn 0 250
+.model D D
+.lib C:\Users\chris\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\chris\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.mos
+.tran 0 {transtop} 0 {timestep}
+.include A6_cfg.txt
+* Don't change these -- used for auto-assessments.\nYou may modify the input files (.txt and .csv) \n               while developing.\nFor submission: \n  * Only one label name per net name\n  * Use only VSupply for power\n  * Use ChargeOn to control charging\n  * Use BatteryTerminal as your battery's \n          positive terminal
+* Config file:
+* Analysis setup:
+* Battery
+* Power\nsupply
+* =============================\nREPLACE WITH YOUR DETAILS\nCC Kruger 23648074\n=============================
+.inc irf9z24n.lib
+.model MYSW SW(Ron=0.1m Vt=.5 Vh=0)
+.model MYSW2 SW(Ron=0.1m Vt=-.5 Vh=0)
+* ChargeOn is the digital signal used \nfor driving your high-side switching circuit.
+* =============================\nIncludes (don't fiddle with this!!)\n=============================
+* =======================================\nYour circuit goes here, these are just placeholders.\n=======================================
+.lib LTC.lib
+.backanno
+.end
